@@ -1,0 +1,8 @@
+git init is used to create repository
+git add is used to add files to staging area
+git status is used to view status of files present in working directory.
+
+Terminology
+working directory the present directory (visible to user)
+staging area used by git for add command i.e changes to be commited at laterstate
+repository contains files from staging area when it is committed later using git commit
