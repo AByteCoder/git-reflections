@@ -1,0 +1,45 @@
+version control applications
+restore to any point in time of the file
+
+applications which use version control.
+1.Dropbox keeps changes made to a file for 30 days
+2. Google docs allows you to view all changes made to file and restore it too
+that point in time.
+3. Wikipedia allows to view previous versions of the documents.
+
+version control for efficiency.
+1. allows to move to a previous version of the code file.
+2. allows for easy comparisions between versions of the file.
+3. allows for easy debugging if one version of code works and another doesnt.
+
+advantages of using manual commits vs auto commit
+1. more flexibility to choose when to commit.
+2. great for looking through the file for each new feature upgrade
+3. versions are logically sound to look at.
+
+disadvantages
+1. Not automatic
+2. Sometimes user may forget to manually commit the changes.
+
+diff [options] old_file new_file (for linux,unix and mac)
+fc (filecompare) for windows
+options
+-u to make it more human readable
+
++ prefix indicates new lines added in new_file
+- prefix indicates lines deleted from old_file
+
+@@ i believe it to be comments
+
+suggestions
+make number of characters in line smallers most use 80-120 chars in a line.
+
+lessons learnt
+1. People don't learn from their experience
+2. They learn by reflecting on their experience
+
+git diff is used to compare between different versions of commit.
+git diff [commit_id_old] [commit_id_new]
+
+git log gives out the commit log
+git log --stat tells how many modifications, how many files got changed etc.
