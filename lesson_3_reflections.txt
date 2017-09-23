@@ -1,1 +1,14 @@
-Creating lesson 3 reflection file in github
+git pull remote branch
+
+used to pull the changes made in the remote repository
+used in
+1. Made changes to remote repo using github.
+2. Made changes to remote repo using another device.
+3. Some other collaborator(s) made changes to the remote repo.
+
+Advantages of git's manual pull vs automatic
+1. The collaborator has flexibility to update.
+2. Automatic pull could have made some changes which the dev doesnt need.
+
+Disadvantages.
+1. Bad if the collaborator forgets to pull the changes.
