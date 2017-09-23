@@ -5,4 +5,48 @@ git status is used to view status of files present in working directory.
 Terminology
 working directory the present directory (visible to user)
 staging area used by git for add command i.e changes to be commited at laterstate
-repository contains files from staging area when it is committed later using git commit
+repository contains files from staging area when it is committed later using
+git commit
+
+git diff without parameters is used to compare the staging area with
+working directory
+git diff --staged compares choosen commit with the staging area
+
+One commit per logical change
+this can be done by
+1. deciding the change to make
+2. make the change to the required files
+3. add the changes to stages area.
+4. commit the changes
+
+Why is branches used
+1. enables to work on an experimental feature without modifying the current code
+2. fixing bugs i.e new branch is used so the master branch may not be introduced
+with new bugs when resolving a current one.
+3. enables to work on different versions like english,hindi language etc.
+4. allows to switch to other branches when bored with the work.
+
+How to create branches
+git branch branch-name
+
+View All branches
+git branch
+
+Note : * prefix indicates selected branch
+
+To choose or checkout a branch
+git checkout branch-name
+
+git merge branch [....branches]
+merges the branch with the current checked out branch.
+how it works
+in the tree diagram
+1. it looks the latest common ancestor both possess
+2. if new changes are present in one branch but not in another it adds
+3. if same changes are present it adds.
+4. if the changes are different then conflict occurs.
+5. if the line is removed then it is removed in branch thing.
+
+to revert the merge we can use --abort option
+i.e in case of a conflict use
+git merge --abort
