@@ -12,3 +12,10 @@ Advantages of git's manual pull vs automatic
 
 Disadvantages.
 1. Bad if the collaborator forgets to pull the changes.
+
+Fork works only for GitHub it is made so that the original author gets credit for his/her code.
+Also it clones original github repo to user's repo.
+
+clone it is a feature of git.
+
+branch it is a label given to a commit used mainly to add experimental features.
